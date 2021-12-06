@@ -1,4 +1,4 @@
-import React, { createContext,useEffect,useReducer,useState } from 'react'
+import React, { createContext,useEffect,useReducer } from 'react'
 import productitems from '../products.json'
 import { reducerFunction } from './DataReducer'
 import {UPDATE,CLEAR,FILTER} from './Action'

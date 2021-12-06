@@ -18,7 +18,7 @@ const Products = () => {
         {
           showItems.map((product) => {
             return (
-              <Grid item id={product.id}>
+              <Grid item key={product.price}>
                 <Card sx={{ maxWidth: 340 }}>
                   <CardMedia
                     component="img"

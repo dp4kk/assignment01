@@ -1,14 +1,11 @@
 import {
   Button,
-  Checkbox,
   Divider,
   Drawer,
-  FormControlLabel,
-  FormGroup,
   Typography,
 } from "@mui/material";
 import { Box } from "@mui/system";
-import React, { useContext, useState } from "react";
+import React, { useContext,} from "react";
 import { AppContext } from "../Context/DataContext";
 const Sidebar = () => {
   const { updatefilter, removefilter, filter } = useContext(AppContext);
@@ -41,9 +38,10 @@ const Sidebar = () => {
           <Typography variant="h5" align="center">
             Price
           </Typography>
-          {price.map((price) => {
+          {price.map((price,index) => {
             return (
               <Button
+                key={index}
                 name="price"
                 type="submit"
                 onClick={updatefilter}
@@ -59,9 +57,9 @@ const Sidebar = () => {
           <Typography variant="h5" align="center">
             Ideal For
           </Typography>
-          {ideal.map((ideal) => {
+          {ideal.map((ideal,index) => {
             return (
-              <Button name="ideal" type="submit" onClick={updatefilter} variant={ideal === filter.ideal ? 'contained' :'text'}>
+              <Button key={index} name="ideal" type="submit" onClick={updatefilter} variant={ideal === filter.ideal ? 'contained' :'text'}>
                 {ideal}
               </Button>
             );
@@ -70,9 +68,9 @@ const Sidebar = () => {
           <Typography variant="h5" align="center">
             Size
           </Typography>
-          {size.map((size) => {
+          {size.map((size,index) => {
             return (
-              <Button name="size" onClick={updatefilter} variant={size === filter.size ? 'contained' : 'text'}>
+              <Button key={index} name="size" onClick={updatefilter} variant={size === filter.size ? 'contained' : 'text'}>
                 {size}
               </Button>
             );
@@ -81,10 +79,10 @@ const Sidebar = () => {
           <Typography variant="h5" align="center">
             Brand
           </Typography>
-          {brand.map((brand) => {
+          {brand.map((brand,index) => {
             return (
-              <li style={{listStyle:'none'}}>
-              <Button name="brand" onClick={updatefilter} variant={brand.split(' ').join('').toUpperCase() === filter.brand.split(' ').join('').toUpperCase() ? 'contained' :'text'}>
+              <li key={index} style={{listStyle:'none'}}>
+              <Button  name="brand" onClick={updatefilter} variant={brand.split(' ').join('').toUpperCase() === filter.brand.split(' ').join('').toUpperCase() ? 'contained' :'text'}>
                 {brand}
               </Button>
               </li>

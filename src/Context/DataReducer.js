@@ -25,6 +25,7 @@ export const reducerFunction = (state, action) => {
           if (product.size.indexOf(state.filter.size) !== -1) {
             return product;
           }
+          return false
         });
       }
       if (state.filter.brand) {
