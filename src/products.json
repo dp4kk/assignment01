@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Solid Men Polo Neck Dark Blue T-Shirt",
+    "brand": "van heusen sport ",
+    "image": "https://rukminim1.flixcart.com/image/880/1056/keaaavk0-0/t-shirt/e/7/3/m-vskpwrgpb23927-van-heusen-sport-original-imafuzu3dwz7hchk.jpeg?q=50",
+    "ideal": "men",
+    "price": 404,
+    "size": ["S", "M", "L"]
+  },
+  {
+    "id": 2,
+    "name": "Striped Men Round Neck Multicolor T-Shirt",
+    "brand": "peter england",
+    "image": "https://rukminim1.flixcart.com/image/880/1056/kr9jafk0/t-shirt/q/y/t/m-pjkcpsnfy14010-peter-england-original-imag53edfhnh6zm3.jpeg?q=50",
+    "ideal": "men",
+    "price": 384,
+    "size": ["S", "M"]
+  },
+  {
+    "id": 3,
+    "name": "Full Sleeve Self Design Men Sweatshirt",
+    "brand": "van heusen sport ",
+    "image": "https://rukminim1.flixcart.com/image/880/1056/kuu4x3k0/sweatshirt/1/x/i/xl-vssturgpq83608-van-heusen-sport-original-imag7vn29e3v7chr.jpeg?q=50",
+    "ideal": "men",
+    "price": 649,
+    "size": ["M"]
+  },
+  {
+    "id": 4,
+    "name": "Full Sleeve Solid Women Sweatshirt",
+    "brand": "juneberry",
+    "image": "https://rukminim1.flixcart.com/image/880/1056/kt7jv680/sweatshirt/a/y/t/xxl-purple-w02-juneberry-original-imag6hhjga5gmczs.jpeg?q=50",
+    "ideal": "women",
+    "price": 599,
+    "size": ["S"]
+  },
+  {
+    "id": 5,
+    "name": "Women Fit and Flare Multicolor Dress",
+    "brand": "aayu",
+    "image": "https://rukminim1.flixcart.com/image/880/1056/kp8ntzk0/dress/r/i/z/s-aa-0119-boho-long-dress-aayu-original-imag3ghzyktnj3bz.jpeg?q=50",
+    "ideal": "women",
+    "price": 499,
+    "size": ["M", "L"]
+  },
+  {
+    "id": 6,
+    "name": "Striped Men Round Neck Grey T-Shirt",
+    "brand": "damensch",
+    "image": "https://rukminim1.flixcart.com/image/880/1056/ktvucnk0/t-shirt/q/3/m/xl-damfptedhr-damensch-original-imag74h2eu3xwcjr.jpeg?q=50",
+    "ideal": "men",
+    "price": 1490,
+    "size": ["S", "M"]
+  }
+]
